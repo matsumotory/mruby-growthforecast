@@ -1,21 +1,16 @@
-# GrowthForecast Class for mruby
-
-## example
-
-```ruby
 g = GrowthForecast::Client.new("127.0.0.1", 5125)
 
 config = {
-  :service  => "apache",
+  :service  => "apache", 
   :section  => "scoreboard",
   :gragh    => "woreker",
 }
 
 data = {
-  :number   => 5,
+  :number   => 5, 
   :color    => "#333399",
   :mode     => "count",
 }
 
 p g.post(config, data)
-```
+
