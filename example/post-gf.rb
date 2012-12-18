@@ -7,7 +7,7 @@ config = {
 }
 
 data = {
-  :number   => 5, 
+  :number   => 7, 
   :color    => "#333399",
   :mode     => "count",
 }
