@@ -17,6 +17,7 @@ class GrowthForecast
         :mode   => data[:mode],
       },{
         'User-Agent' => "mruby-growthforcast",
+        "Content-Type" => 'application/x-www-form-urlencoded',
       })
     end
   end
