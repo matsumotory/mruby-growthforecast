@@ -16,8 +16,8 @@ class GrowthForecast
         :color  => data[:color],
         :mode   => data[:mode],
       },{
-        'User-Agent' => "mruby-growthforecast",
-        "Content-Type" => 'application/x-www-form-urlencoded',
+        'User-Agent' => 'mruby-growthforecast',
+        'Content-Type' => 'application/x-www-form-urlencoded',
       })
     end
   end
