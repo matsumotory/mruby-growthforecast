@@ -3,7 +3,7 @@ g = GrowthForecast::Client.new("127.0.0.1", 5125)
 config = {
   :service  => "apache", 
   :section  => "scoreboard",
-  :gragh    => "woreker",
+  :graph    => "worker",
 }
 
 data = {
