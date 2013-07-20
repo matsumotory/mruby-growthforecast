@@ -2,7 +2,7 @@ class GrowthForecast
   DEFAULTADDRESS  = "127.0.0.1"
   DEFAULTPORT     = 5125
   class Client
-    def initialize(address, port)
+    def initialize(address=nil, port=nil)
       address = DEFAULTADDRESS if address.nil?
       port   = DEFAULTPORT if port.nil?
       @url = sprintf("http://%s:%s/api", address, port.to_s)
